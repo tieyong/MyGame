@@ -99,5 +99,10 @@ public class Player : MonoBehaviour
     {
         Gizmos.DrawIcon(this.transform.position, "Spawn.tif");
     }
+
+    public Transform getPTranform()
+    {
+        return this.pTransform;
+    }
 }
 
