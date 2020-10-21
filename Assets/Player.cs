@@ -104,5 +104,10 @@ public class Player : MonoBehaviour
     {
         return this.pTransform;
     }
+
+    public int getHealth()
+    {
+        return this.health;
+    }
 }
 
